@@ -32,8 +32,8 @@ Os dados disponíveis incluem três arquivos em formato _CSV_: _train.csv_/_test
 | SchoolHoliday | Indica se a loja foi afetada pelo fechamento de escolas públicas. | |
 
 **Arquivo: store.csv**
-| Variáveis | Descrição |
-|-----------|-----------|
+| Variáveis | Descrição | Domínios |
+|-----------|-----------|----------|
 | **Store** | Um Id exclusivo para cada loja. | |
 | StoreType | Classificação entre 4 modelos de loja diferentes. | a, b, c, d |
 | Assortment | Descreve um nível de sortimento | a = básico, b = extra, c = estendido|
