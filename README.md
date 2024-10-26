@@ -8,12 +8,12 @@ Atualmente, os gerentes de cada filial da Rossmann são responsáveis por prever
 
 ## 💼 Demanda do negócio
 
-- Construir novas variáveis;
+- Construir novas variáveis e o target;
 - Desenvolver um modelo preditivo de demanda de vendas.
 
 ## 📃 Compreensão dos dados
 
-Os dados disponíveis incluem três arquivos em formato _CSV_: _train.csv_/_test.csv_, que contêm dados históricos de vendas, e _store.csv_, que oferece informações suplementares sobre as lojas. Os dados de vendas cobrem o período de 31/12/2012 a 16/09/2015, e foram extraídos do portal [Kaggle - Rossmann Store Sales](https://www.kaggle.com/competitions/rossmann-store-sales). O conjunto de dados inclui informações detalhadas sobre faturamento, número de clientes diários, indicadores de funcionamento das lojas, promoções, concorrentes, entre outros fatores temporais.
+Os dados disponíveis incluem três arquivos em formato _CSV_: _train.csv_/_test.csv_, que contêm dados históricos de vendas, e _store.csv_, que oferece informações suplementares sobre as lojas. Os dados de vendas cobrem o período de **31/12/2012** a **16/09/2015** de **1.115 lojas** localizadas na **Alemanha**, e foram extraídos do portal [Kaggle - Rossmann Store Sales](https://www.kaggle.com/competitions/rossmann-store-sales). O conjunto de dados inclui informações detalhadas sobre faturamento, número de clientes diários, indicadores de funcionamento das lojas, promoções, concorrentes, entre outros fatores temporais.
 
 ## 📓 Dicionário de dados
 
@@ -36,7 +36,7 @@ Os dados disponíveis incluem três arquivos em formato _CSV_: _train.csv_/_test
 |-----------|-----------|----------|
 | **Store** | Um Id exclusivo para cada loja. | |
 | StoreType | Classificação entre 4 modelos de loja diferentes. | a, b, c, d |
-| Assortment | Descreve um nível de sortimento | a = básico, b = extra, c = estendido|
+| Assortment | Descreve um nível de sortimento | a = básico, b = extra, c = estendido |
 | CompetitionDistance | Distância em metros até a loja concorrente mais próxima | |
 | CompetitionOpenSinceMonth | Fornece o mês aproximado em que o concorrente mais próximo foi aberto. | |
 | CompetitionOpenSinceYear | Fornece o ano aproximado em que o concorrente mais próximo foi aberto. | |
@@ -61,10 +61,6 @@ Os dados disponíveis incluem três arquivos em formato _CSV_: _train.csv_/_test
   - Biblioteca Tabulate
   - Biblioteca TextWrap
   - Biblioteca Unidecode
-- PySpark
-  - Biblioteca OS
-  - Biblioteca Time
-
 
 ## 💳 Créditos
 
