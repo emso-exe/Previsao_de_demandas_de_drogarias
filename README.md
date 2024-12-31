@@ -58,9 +58,13 @@ Os dados disponíveis incluem três arquivos em formato _CSV_: _train.csv_/_test
   - Biblioteca MissingNo
   - Biblioteca Numpy
   - Biblioteca Warnings
-  - Biblioteca Tabulate
-  - Biblioteca TextWrap
-  - Biblioteca Unidecode
+  - Biblioteca Time
+  - Biblioteca Optuna
+  - Biblioteca JobLib
+  - Biblioteca LightGBM
+  - Biblioteca CatBoost
+  - Biblioteca XGBoost
+  - Biblioteca SciKit-learn
 
 ## 💳 Créditos
 
